@@ -1,0 +1,267 @@
+@import url("font.css");
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+/*.btn повторяется в 1.3*/
+.btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #FF3E79;
+    border-radius: 50%;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: "TT Lakes Medium", sans-serif;
+    color: #1B1C21;
+    height: 100vh;
+}
+
+.left-menu {
+    width: 320px;
+    min-height: 100%;
+    box-shadow: 10px 0 40px -10px #847d7d;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.btn__burger--left-menu {
+    transition: all 2s ease 0s;
+}
+
+.btn__burger--left-menu:hover {
+    transform: rotate(360deg);
+}
+
+.header__img-logo {
+    margin-left: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+.btn__search--left-menu {
+    margin-right: 10px;
+    margin-left: auto;
+    transition: all 2s ease 0s;
+}
+
+.btn__search--left-menu:hover {
+    transform: rotate(360deg);
+}
+
+.btn__search--icon {
+    background-image: url("../image/menu-image/search.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.btn__burger--left-menu {
+    transition: all 2s ease 0s;
+}
+
+.btn__burger--left-menu:hover {
+    transform: rotate(360deg);
+}
+
+.btn__call--left-menu {
+    transition: all 2s ease 0s;
+}
+
+.btn__call--left-menu:hover {
+    transform: rotate(360deg);
+}
+
+.btn__chat--left-menu {
+    margin-left: 16px;
+    transition: transform 2s ease 0s;
+
+}
+
+.btn__chat--left-menu:hover {
+    transform: rotate(360deg);
+}
+
+.btn__profile--left-menu {
+    margin-left: 16px;
+    transition: all 2s ease 0s;
+}
+
+.btn__profile--left-menu:hover {
+    transform: rotate(360deg);
+}
+
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu__list-menu {
+    list-style: none;
+    font-size: 16px;
+    margin: 40px 0 0 0;
+    padding: 0;
+}
+
+
+.main-menu__list-menu--item {
+    margin-bottom: 32px;
+    padding-left: 20px;
+}
+
+.main-menu__list-menu--item:last-child {
+    margin-bottom: 0;
+}
+
+.main-menu__list-menu--item-link {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.main-menu__list-menu--item-link--active {
+    color: #7E7E82;
+}
+
+.main-menu__list-menu--item-link--active::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 32px;
+    background: #41F6D7;
+    margin-top: -5px;
+    margin-left: -20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__position {
+    margin-top: auto;
+    padding-bottom: 32px;
+}
+
+.footer__btn-container {
+    margin: 0 0 16px 16px;
+}
+
+.footer__btn-chat {
+    border: none;
+    background: #FF3E79 url("../image/menu-image/chat.svg") no-repeat 50% 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+    transition: all 2s ease 0s;
+}
+
+.footer__btn-chat:hover {
+    transform: rotate(360deg);
+}
+
+.footer__btn-profile {
+    border: none;
+    background: #FF3E79 url("../image/menu-image/profile.svg") no-repeat 50% 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 16px;
+    transition: all 2s ease 0s;
+}
+
+.footer__btn-profile:hover {
+    transform: rotate(360deg);
+}
+
+.footer__text {
+    margin-left: 20px;
+}
+
+.footer__email {
+    display: inline-block;
+    margin: 0 0 12px 0;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+.footer__phone {
+    display: inline-block;
+    font-family: "TT Lakes Bold", sans-serif;
+    font-size: 24px;
+    margin: 0 0 40px 0;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+.footer__language {
+    margin-left: 20px;
+    font-family: "TT Lakes Medium", sans-serif;
+    font-size: 16px;
+}
+
+.footer__label {
+
+}
+
+.footer__input {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    appearance: none;
+}
+
+.footer__input:checked + label {
+    color: #7E7E82;
+}
+
+.footer__label {
+    margin-right: 15px;
+}
+
+/*повторяющийся код с 1.3, не учитывать при переносе*/
+
+
+.btn__burger--icon-close {
+    background-image: url("../image/menu-image/burger-close.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.btn__call--icon {
+    background-image: url("../image/menu-image/call.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.btn__chat--icon {
+    background-image: url("../image/menu-image/chat.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.btn__profile--icon {
+    background-image: url("../image/menu-image/profile.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}

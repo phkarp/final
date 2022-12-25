@@ -1,0 +1,25 @@
+
+.link-container-brand__parameters {
+    width: 224px;
+    height: 72px;
+    margin: 16px 24px 0 0;
+}
+
+.link-container__brands-position {
+    margin: 0 0 10px 24px;
+}
+
+.link-container__off-mobile {
+    display: block;
+}
+
+.link-container-brand__link:after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: 3px solid #FF3E79;
+    border-right: 3px solid #FF3E79;
+    margin: 0 0 0 auto;
+    transform: translate(-15px, 15px) rotate(45deg);
+}

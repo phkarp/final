@@ -1,0 +1,117 @@
+@import url("font.css");
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.title-services {
+    font-family: "TT Lakes Bold", sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    /*width: 100%;*/
+    position: relative;
+    margin: 0;
+}
+
+.upper-menu--off-mobile {
+    display: block;
+}
+
+.title-services::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: #41F6D7;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.title-services__margin {
+    padding-left: 20px;
+}
+
+.about__button {
+    background: url("../image/expand-down.svg") no-repeat;
+    border-style: none;
+    text-align: start;
+    padding-left: 25px;
+    font-family: "TT Lakes Medium", sans-serif;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #FF3E79;
+    border-radius: 50%;
+}
+
+.btn__burger {
+
+}
+
+.btn__burger--icon {
+    background-image: url("../image/menu-image/burger.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.btn__call {
+
+}
+
+.btn__call--icon {
+    background-image: url("../image/menu-image/call.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.btn__chat {
+
+}
+
+.btn__chat--icon {
+    background-image: url("../image/menu-image/chat.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.btn__profile {
+
+}
+
+.btn__profile--icon {
+    background-image: url("../image/menu-image/profile.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.btn__repair {
+
+}
+
+.btn__repair--icon {
+    background-image: url("../image/menu-image/repair.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.btn__check-status {
+
+}
+
+.btn__check-status--icon {
+    background-image: url("../image/menu-image/checkstatus-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+

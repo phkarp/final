@@ -1,0 +1,130 @@
+@import "font.css";
+
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.header-block-repair__h1 {
+    font-family: "TT Lakes Regular", sans-serif;
+    font-size: 16px;
+    color: #7E7E82;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F2F2F2;
+    overflow: visible;
+    width: 100%;
+
+}
+
+.header-block-repair {
+    background: linear-gradient(to right, #F2F2F2, white);
+    margin: 0;
+    padding: 16px 32px;
+}
+
+.swiper {
+    width: 300px;
+    height: 130px;
+    margin-left: 20px;
+}
+
+.link-container__btn-show-more {
+    background-image: url("../image/expand-down.svg");
+    background-repeat: no-repeat;
+    background-color: inherit;
+    border-style: none;
+    text-align: start;
+    padding-left: 25px;
+    font-family: "TT Lakes Medium", sans-serif;
+    font-size: 16px;
+    padding-bottom: 16px;
+    margin-left: 31px;
+}
+
+.link-container__btn-show-more--up {
+    background-image: url("../image/expand-up.svg");
+}
+
+.link-container__brands {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    overflow: hidden;
+}
+
+.link-container__brands--show {
+    height: auto;
+    overflow: auto;
+}
+
+.link-container__btn-show-more--hidden {
+    display: none;
+}
+
+.link-container__brands-position {
+    margin: 0 0 10px 32px;
+    padding: 10px 0;
+}
+
+.link-container-brand {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+}
+
+.link-container-brand__parameters {
+    width: 224px;
+    height: 72px;
+    margin: 16px 24px 0 0;
+    padding: 16px;
+}
+
+.link-container-brand__image {
+}
+
+.link-container-brand__link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FF3E79;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 0 0 0 auto;
+}
+
+
+/*.link-container-brand__link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FF3E79;
+    border-radius: 50%;
+    background-image: url("brand-image/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 0 0 0 auto;
+}*/
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+}
+
+.swiper {
+    overflow: unset;
+}
+
+

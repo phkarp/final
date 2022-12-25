@@ -1,0 +1,30 @@
+.header-block-repair {
+    padding: 16px;
+}
+
+.link-container__off-mobile {
+    display: none;
+}
+
+.link-container-brand__parameters {
+    padding: 0 16px;
+}
+
+.link-container-brand__image {
+
+}
+
+.link-container-brand__link {
+
+}
+
+.link-container-brand__link:after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-top: 3px solid #FF3E79;
+    border-right: 3px solid #FF3E79;
+    margin: 0 0 0 auto;
+    transform: translate(-16px, 16px) rotate(45deg);
+}

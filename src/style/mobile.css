@@ -1,0 +1,139 @@
+@import url("font.css");
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.upper-menu--off-mobile {
+    display: none;
+}
+
+.about__text--on-desktop {
+    display: none;
+}
+
+.about__text--off-mobile {
+    display: none;
+}
+
+.upper-menu--off-desktop {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 88px;
+    padding: 18px 16px;
+}
+
+.btn--off-mobile {
+    display: none;
+}
+
+.logo__margin {
+    margin-left: 16px;
+    margin-right: auto;
+}
+
+.btn__burger--upper-menu {
+}
+
+.upper-menu__divider {
+    margin-left: 16px;
+}
+
+.btn__repair--upper-menu {
+    margin-left: 12px;
+}
+
+.btn__check-status--upper-menu {
+    margin: 0 16px 0 10px;
+}
+
+.upper-menu-desktop {
+    display: none;
+    align-items: center;
+    width: 100%;
+    height: 88px;
+    padding: 18px 16px 18px 0;
+    background-color: #F8F8F8;
+}
+
+.main {
+    background-color: #F8F8F8;
+    margin: 0;
+    padding: 0;
+}
+
+.title-services__margin {
+    margin-bottom: 20px;
+}
+
+
+.slide-menu__list-menu {
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    font-family: "TT Lakes Medium", sans-serif;
+    color: #7E7E82;
+    font-size: 16px;
+    list-style: none;
+    margin: 0;
+}
+
+.slide-menu__list-menu--elem {
+    padding-left: 16px;
+    margin-bottom: 22px;
+}
+
+.slide-menu__list-menu--item--link {
+    display: block;
+    width: max-content;
+    padding: 8px 22px;
+    text-decoration: none;
+    color: #7E7E82;
+
+}
+
+.slide-menu__list-menu--item {
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.slide-menu__list-menu--item--active {
+    background: #FFFFFF;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    color: #1B1C21;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "TT Lakes Regular", sans-serif;
+    font-size: 14px;
+    color: #1B1C21;
+    margin: 0;
+}
+
+.about__text {
+    width: 100%;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0;
+
+}
+
+.about__button {
+    margin-left: 16px;
+}
+
+.about__image-about {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
